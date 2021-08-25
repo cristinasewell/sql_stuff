@@ -70,7 +70,7 @@ create table salaries (
 );
 
 -- 1 
-select 
+-- select 
 
 -- AVG - average of a set of values
 -- COUNT - counts the rows in a specific table or view
