@@ -65,12 +65,11 @@ select * from dept_manager
 
 create table salaries (
 	emp_no int not null,
-	salary money not null,
+	salary int not null,
 	foreign key (emp_no) references employees.emp_no
 );
 
 -- 1 
--- select 
 
 -- AVG - average of a set of values
 -- COUNT - counts the rows in a specific table or view
